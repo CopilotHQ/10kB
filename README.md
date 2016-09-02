@@ -13,4 +13,4 @@ __Me:__ Whoa, that sounds like a lot of fun
 
 __A List Apart:__ _It most definitely is. Have any good ideas?_
 
-__Me:__ I've got one... whether or not it's good is another question. I'm thinking of trying to make a conversational UI. Actually, I work for a [AWeber](https://www.aweber.com) email service provider so I'm upping the challenge a little to try and get this working in email. I'll let you know how it goes.
+__Me:__ I've got an idea... whether or not it's good is another question. I'm thinking of trying to make a conversational UI. Actually, I work for a [AWeber](https://www.aweber.com) email service provider so I'm upping the challenge a little to try and get this working in email. I'll let you know how it goes.
