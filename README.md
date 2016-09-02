@@ -3,14 +3,14 @@
 
 ## What's this all about?
 
-_A List Apart:_ __Hey! We're hosting [10k Apart](https://a-k-apart.com/)!__
+__A List Apart:__ Hey! We're hosting [10k Apart](https://a-k-apart.com/)!
 
-_Me:_ __Oh yeah? What's that?__
+__Me:__ Oh yeah? What's that?
 
-_A List Apart:_ __It's a challenge to build a compelling web experience that can be delivered in 10kB and works without JavaScript.__
+__A List Apart:__ It's a challenge to build a compelling web experience that can be delivered in 10kB and works without JavaScript.
 
-_Me:_ __Whoa, that sounds like a lot of fun__
+__Me:__ Whoa, that sounds like a lot of fun
 
-_A List Apart:_ __It most definitely is. Have any good ideas?__
+__A List Apart:__ It most definitely is. Have any good ideas?
 
-_Me:_ __I've got one... whether or not it's good is another question. I'm thinking of trying to make a conversational UI. Actually, I work for a [AWeber](https://www.aweber.com) email service provider so I'm upping the challenge a little to try and get this working in email. I'll let you know how it goes.__
+__Me:__ I've got one... whether or not it's good is another question. I'm thinking of trying to make a conversational UI. Actually, I work for a [AWeber](https://www.aweber.com) email service provider so I'm upping the challenge a little to try and get this working in email. I'll let you know how it goes.
