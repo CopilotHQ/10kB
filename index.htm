@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Howdy</title>
+    <style>
+      /**
+      a = animation
+      b = blurb
+      c = conversation
+      o = option
+      r = response
+      **/
+      body {
+        background: #FAFAFA;
+        font-family: arial, sans-serif;
+        font-size: 15px;
+        color: #333;
+        padding: 10px;
+      }
+
+      .c {
+        max-width: 600px;
+        margin: 0 auto;
+      }
+
+      .b,
+      label {
+        padding: 10px;
+        position: relative;
+        margin-bottom: 10px;
+        border-radius: 3px;
+        box-shadow: #DDD 0 1px 2px;
+      }
+
+      /* Blurb on left side of screen */
+      .b {
+        background: white;
+        float: left;
+        clear: both;
+        opacity: 0;
+        border-left: 4px solid #F99;
+      }
+
+      /* Response on right side of screen */
+      .b.r {
+        float: right;
+        clear: both;
+        border-left: none;
+        border-right: 4px solid #69F;
+      }
+
+      /* Option buttons */
+      .o {
+        position: relative;
+        float: right;
+        clear: both;
+        width: 100%;
+        opacity: 0;
+        animation: cIn 1s ease;
+        -webkit-animation-fill-mode: forwards;
+        animation-fill-mode: forwards;
+        /*animation-delay: 2.4s;*/
+      }
+
+      .o input {
+        display: none;
+      }
+
+      label {
+        background: #69F;
+        cursor: pointer;
+        color: white;
+        float: right;
+        margin-left: 10px;
+      }
+
+      label:hover { background: #58F; }
+
+      /* Animation */
+      .a {
+        animation: cIn 1s ease;
+        animation-fill-mode: forwards;
+      }
+
+      /*.b:nth-child(2) { animation-delay: 1.2s; }
+      .b:nth-child(3) { animation-delay: 2.4s; }*/
+
+      @-webkit-keyframes cIn {
+        0% {
+          opacity: 0;
+          top: 20px;
+        }
+        1% {
+          visibility: visible;
+        }
+        100% {
+          opacity: 1;
+          top: 0px;
+        }
+      }
+
+      .c2,
+      .c3 {
+        display: none;
+      }
+
+      input:checked ~ label {
+        display: none;
+      }
+
+      #o1:checked ~ .c2 { display: block; }
+      #o1:checked ~ .c2 .b {
+        animation: cIn 1s ease;
+        -webkit-animation-fill-mode: forwards;
+        animation-fill-mode: forwards;
+      }
+
+      #o2:checked ~ .c3 { display: block; }
+      #o2:checked ~ .c3 .b {
+        animation: cIn 1s ease;
+        -webkit-animation-fill-mode: forwards;
+        animation-fill-mode: forwards;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="c">
+      <span class="b a">👋🏼&nbsp;</span>
+      <span class="b a">I'm Chris Vasquez</span>
+      <span class="o">
+          <input type="radio" id="o1">
+          <input type="radio" id="o2">
+          <label class="l2" for="o2">😡 Get outta my face!</label>
+          <label class="l1" for="o1">😀 Well hello there!</label>
+          <div class="c c2">
+            <span class="b r">😀 Well hello there!</span>
+            <div class="c">
+              <span class="b a">😎</span>
+            </div>
+          </div>
+          <div class="c c3">
+            <span class="b r">😡 Get outta my face!</span>
+            <div class="c">
+              <span class="b a">😩</span>
+            </div>
+          </div>
+      </span>
+    </div>
+
+  </body>
+</html>
