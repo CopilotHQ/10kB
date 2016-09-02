@@ -1,5 +1,5 @@
 # 10kB
->A conversational UI in under 10kB
+A conversational UI in under 10kB
 
 ## What's this all about?
 
