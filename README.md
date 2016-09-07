@@ -1,5 +1,5 @@
 # 10kB
-A [conversational UI](https://copilothq.github.io/10kB/) in under 10kB
+A [conversational UI](https://copilothq.github.io/10kB/) in under 10kB. All CSS, so guess what everybody... it works in email (well, the email clients that generally support interactive emails)!
 
 ## What's this all about?
 
